@@ -7,22 +7,13 @@ const About = () => {
       <div className=" w-full lg:w-3/4 space-y-4">
         <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
+        Welcome to <b>TeleMedico!</b> We're a dedicated team of healthcare professionals committed to providing high-quality TeleMedico services. Our mission is to bridge the gap between patients and healthcare providers through modern technology and innovative solutions.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
+        At TeleMedico, we prioritize convenience, safety, and satisfaction. Our platform allows patients to connect with experienced doctors, schedule virtual appointments, and access medical consultations from anywhere.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+        Our team consists of skilled professionals dedicated to delivering personalized care and medical guidance. We aim to enhance healthcare accessibility, improve patient outcomes, and promote overall well-being.
         </p>
       </div>
       <div className=" w-full lg:w-3/4">

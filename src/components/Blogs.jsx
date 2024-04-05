@@ -14,11 +14,10 @@ const Blogs = () => {
       <div className=" flex flex-col items-center lg:flex-row justify-between">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
-            Latest Post
+          Awareness
           </h1>
           <p className=" mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-            quidem.
+          "Health awareness emphasizes the significance of balanced nutrition, exercise, <br />rest, and stress management.
           </p>
         </div>
         <div className=" mt-4 lg:mt-0">
@@ -27,15 +26,14 @@ const Blogs = () => {
       </div>
       <div className=" my-8">
         <div className=" flex flex-wrap justify-center gap-5">
-          <BlogCard img={img1} headlines="Unraveling the Mysteries of Sleep" />
-          <BlogCard img={img2} headlines="The Heart-Healthy Diet" />
+          <BlogCard img={img1} headlines="Unraveling the Mysteries of Sleep" description1="" />
+          <BlogCard img={img2} headlines="The Heart-Healthy Diet"  description1 =""/>
           <BlogCard
             img={img3}
-            headlines="Understanding Pediatric Vaccinations"
-          />
-          <BlogCard img={img4} headlines="Navigating Mental Health" />
-          <BlogCard img={img5} headlines="The Importance of Regular Exercise" />
-          <BlogCard img={img6} headlines="Skin Health 101" />
+            headlines="Health Awareness Campaigns" description1 =""/>
+          <BlogCard img={img4} headlines="Navigating Mental Health"  description1 =""/>
+          <BlogCard img={img5} headlines="The Importance of Regular Exercise" description1 ="" />
+          <BlogCard img={img6} headlines="Disease Specific Information"  description1 =""/>
         </div>
       </div>
     </div>

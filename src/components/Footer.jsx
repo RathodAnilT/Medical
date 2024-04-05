@@ -6,10 +6,9 @@ const Footer = () => {
     <div className=" bg-backgroundColor text-white rounded-t-3xl mt-5 md:mt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">TeleMedicine</h1>
+          <h1 className=" font-semibold text-xl pb-4">TeleMedico</h1>
           <p className=" text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magnam
-          omnis natus accusantium quos.
+          Welcome to TeleMedicine! We're a dedicated team of healthcare professionals committed to providing high-quality telemedicine services.
           </p>
         </div>
         <div>
@@ -86,14 +85,14 @@ const Footer = () => {
               Helpdesk@gmail.com
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
-              +91-1234567890
+              +91 9370217269
             </Link>
           </nav>
         </div>
       </div>
       <div>
         <p className=" text-center py-4">
-        &copy; 2024 Developed By
+      Copyright  &copy; 2024 Developed By
           <span className=" text-hoverColor">TeamSpark</span> | All
           rights reserved
         </p>

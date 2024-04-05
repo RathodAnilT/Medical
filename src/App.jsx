@@ -6,6 +6,8 @@ import Services from "./components/Services";
 import Doctors from "./components/Doctors";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
+import ShoppingCart from './components/ShoppingCart';
+
 
 const App = () => {
   return (
@@ -31,6 +33,9 @@ const App = () => {
 
         <div id="blog">
           <Blogs />
+        </div>
+        <div id="ShoppingCart">
+          <ShoppingCart />
         </div>
       </main>
 

@@ -11,6 +11,9 @@ const Doctors = () => {
       img: "/src/assets/img/doc1.jpg",
       name: "Dr. Serena Mitchell",
       specialties: "Orthopedic Surgeon",
+      
+      
+      
     },
     {
       img: "/src/assets/img/doc2.jpg",
